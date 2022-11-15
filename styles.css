@@ -111,20 +111,26 @@ body {
     height: 200px;
     border: solid 6px skyblue;
     border-radius: 50px 20px;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    object-fit: cover;
+    margin-bottom: 12px;
 }
 
 .image-text p {
     width: 150px;
 }
 
-.first-image,
-.second-image,
-.third-image,
-.fourth-image {
+.image {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.image-text img:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 /* THIRD SECTION */

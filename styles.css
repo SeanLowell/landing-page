@@ -193,3 +193,16 @@ body {
     font-weight: lighter;
     color: #E5E7EB;
 }
+
+/* FOOTER */
+.footer {
+    height: 84px;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

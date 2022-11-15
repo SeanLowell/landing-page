@@ -151,3 +151,45 @@ body {
     margin-top: 0;
     margin-left: 650px;
 }
+
+/* FOURTH SECTION */
+.fourth-section {
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 970px;
+    height: 50px;
+}
+
+.fourth-section-signup {
+    height: 40px;
+    width: 140px;
+    border: solid 2px white;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.container h2 {
+    color: white;
+}
+
+.container .fourth-section-text {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}

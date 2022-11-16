@@ -6,7 +6,7 @@ body {
 }
 
 /* FIRST SECTION */
-.background-container {
+#background {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -18,39 +18,23 @@ body {
 }
 
 .first-section {
+    width: 85%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 4em auto 4em auto;
     display: flex;
-    justify-content: space-evenly;
-    /*background-color: #1F2937;*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 24px;
-    box-shadow: 0 a10px 30px black;
-    height: 470px;
-    width: 1400px;
-    margin: 54px;
-    margin-left: 214px;
+    box-shadow: 0 0 2em rgb(69 69 69);
 }
 
 .left-hero {
+    color: white;
+    width: 34vw;
     display: flex;
     flex-direction: column;
-}
-
-.header-info {
-    width: 800px;
-}
-
-.header-info h1 {
-    margin-bottom: 0;
-}
-
-.left-hero h2 {
-    margin-bottom: 57px;
-}
-
-.right-hero img {
-    width: 470px;
-    height: auto;
-    margin-top: 67px;
 }
 
 .header-info p {
@@ -63,16 +47,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-}
-
-.left-hero h2 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.left-hero p {
-    margin-bottom: 10px;
-    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .signup {
@@ -84,19 +59,30 @@ body {
     border-radius: 8px;
 }
 
+.hero-right {
+    width: 40vw;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.first-section-img {
+    border: solid 2px skyblue;
+    width: 34vw;
+    box-shadow: 0 0 2em rgb(69 69 69);
+    border-radius: 20px;
+}
+
 .header-links {
     display: flex;
     gap: 16px;
-    margin-left: 120px;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .header-links a {
     text-decoration: none;
-}
-
-.header-links a,
-.left-hero p {
     font-size: 18px;
     color: #E5E7EB
 }
@@ -128,7 +114,7 @@ body {
 
 .image-text img {
     width: 200px;
-    height: 300px;
+    height: 270px;
     margin-bottom: 12px;
     border: solid 6px skyblue;
     border-radius: 50px 20px;
@@ -162,6 +148,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-image: url(images/studio-ghibli-2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.0);
 }
 
 .quote-text {
